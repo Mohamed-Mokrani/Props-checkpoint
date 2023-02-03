@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Profile = ({fullname,bio,profession,show}) => {
+const Profile = ({myimage,fullname,bio,profession,show}) => {
   return (
     
     <div className='informations'>
-      
+      <img src={myimage} alt='img' className='image-profile'/>
       <h1>{fullname}</h1>
       <h3>{bio}</h3>
       <p>{profession}</p>

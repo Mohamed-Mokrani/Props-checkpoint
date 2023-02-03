@@ -30,6 +30,11 @@ body{
   background-color: rgb(255, 255, 255);
 }
 
+.image-profile{
+  width: 200px;
+  border-radius: 50%;
+}
+
 .informations{
   flex-direction: column;
   display: flex;
@@ -46,7 +51,7 @@ button{
   height: 50px;
   border-radius: 50px;
   transition: all 1000ms;
-  margin-top: 100px;
+  margin-top: 50px;
   
   
   
