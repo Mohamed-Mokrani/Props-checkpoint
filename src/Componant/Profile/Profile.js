@@ -6,7 +6,7 @@ const Profile = ({myimage,fullname,bio,profession,show}) => {
     <div className='informations'>
       <img src={myimage} alt='img' className='image-profile'/>
       <h1>{fullname}</h1>
-      <h3>{bio}</h3>
+      <h4>{bio}</h4>
       <p>{profession}</p>
       <button onClick={()=>show(fullname)}>Click to view profile</button>
       
